@@ -1,19 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* @import url('https://intelpublicusprem.blob.core.windows.net/sugarmd/Gullia-Regular.otf'); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base { */
-  @font-face {
-    font-family: 'Gullia';
-    src: url(/fonts/Gullia-Regular.otf) format("opentype");
-  }
+
+@layer base {
 
   @font-face {
-    font-family: 'Libre';
-    src: url(/fonts/LibreFranklin-VariableFont_wght.ttf) format("truetype");
+    font-family: 'Agu Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/agudisplay/v1/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4fdlqVK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-/* } */
 
-
+}

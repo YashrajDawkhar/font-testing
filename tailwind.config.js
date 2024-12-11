@@ -7,7 +7,8 @@ module.exports = {
     extend: {},
     fontFamily:{
       'gullia': 'Gullia',
-      'libreFranklin': 'Libre'
+      'libreFranklin': ['Libre Franklin'],
+      'agu':['Agu Display']
     }
   },
   plugins: [],
