@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      'gullia': 'Gullia',
+      'gullia': ['Gullia'],
       'libreFranklin': ['Libre Franklin'],
       'agu':['Agu Display']
     }

@@ -13,5 +13,10 @@
     font-family: 'Agu Display';
     src: url(https://fonts.gstatic.com/s/agudisplay/v1/iJWXBXKbbi6BeMC1_RX7qF_V5E7aciGRRWUwX4fdlqVK.woff2) format('woff2');
   }
+  
+  @font-face {
+    font-family: 'Gullia';
+    src: url(https://ps.intelliassist.co/sugarmd/Gullia-Regular.woff) format('woff');
+  }
 
 }
