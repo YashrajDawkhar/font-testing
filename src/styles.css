@@ -1,17 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
   @font-face {
-    font-family: "Gullia";
+    font-family: 'Gullia';
     src: url(/fonts/Gullia-Regular.otf) format("opentype");
   }
 
   @font-face {
-    font-family: "Libre";
+    font-family: 'Libre';
     src: url(/fonts/LibreFranklin-VariableFont_wght.ttf) format("truetype");
   }
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+

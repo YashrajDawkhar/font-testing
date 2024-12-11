@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      'gullia': ['Gullia'],
-      'libre-franklin': ['Libre'],
+      'gullia': ['"Gullia"'],
+      'libre-franklin': ['"Libre"'],
     }
   },
   plugins: [],
